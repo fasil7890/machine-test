@@ -1,0 +1,12 @@
+.home-listing{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.home-top{
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+}
+

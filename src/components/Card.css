@@ -1,0 +1,23 @@
+.card-wrapper{
+    border: 1px solid gray;
+    width: 40%;
+    margin: 10px;
+    
+}
+
+.card-details{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 10px;
+    
+}
+.card-flag{
+    width: 70px;
+    height: 70px;
+}
+@media (max-width:576px) {
+    .card-wrapper{
+        width:100%;
+    }
+}

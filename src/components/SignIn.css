@@ -1,0 +1,75 @@
+.sign-in-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.sign-in-link {
+  display: flex;
+  gap: 5px;
+}
+.sign-in-blue {
+  color: blue;
+}
+.sign-in-input {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sign-in-checkbox {
+  display: flex;
+  justify-content: baseline;
+}
+button {
+  width: 100%;
+}
+.sign-in-icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 30px;
+  font-weight: lighter;
+}
+.sign-in-row {
+  display: flex;
+}
+.sign-in-rotated-line {
+  transform: rotate(90deg);
+}
+.sign-in-input-text {
+  border-radius: 0%;
+  color: gray;
+  padding: 12px;
+  font-size: 12px;
+}
+.sign-in-checkbox {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+input[type='checkbox'] {
+  height: 25px;
+  width: 25px;
+  border: 1px solid black;
+  cursor: pointer;
+  pad: 5px;
+}
+button {
+  border-radius: 0%;
+  background-color: black;
+  color: white;
+  padding: 12px;
+}
+
+.sign-in-image-size {
+  width: 700px;
+  height: 700px;
+}
+.sign-in-link-tag {
+  text-decoration: none;
+  color: white;
+}
+@media (max-width: 576px) {
+  .sign-in-image {
+    display: none;
+  }
+}
